@@ -1,0 +1,156 @@
+[
+  {
+    "name": "动漫屋",
+    "key": "dm5",
+    "version": "0.2.0",
+    "fileName": "sources/dm5.js",
+    "description": "已适配 DM5 系移动端：搜索、详情、章节、packed JS 图片解析。"
+  },
+  {
+    "name": "极速漫画",
+    "key": "one_kkk",
+    "version": "0.2.0",
+    "fileName": "sources/one_kkk.js",
+    "description": "已适配 1kkk/DM5 系移动端：搜索、详情、章节、packed JS 图片解析。"
+  },
+  {
+    "name": "Mangabz",
+    "key": "mangabz",
+    "version": "0.2.0",
+    "fileName": "sources/mangabz.js",
+    "description": "已适配 Mangabz：search?title 搜索、详情、章节、packed JS 图片解析。"
+  },
+  {
+    "name": "拷贝漫画",
+    "key": "copy_manga",
+    "version": "1.4.1",
+    "fileName": "sources/copy_manga.js",
+    "description": "拷贝漫画：官方 venera-configs 配置。"
+  },
+  {
+    "name": "Komiic",
+    "key": "Komiic",
+    "version": "1.0.3",
+    "fileName": "sources/komiic.js",
+    "description": "Komiic：官方 venera-configs 配置。"
+  },
+  {
+    "name": "包子漫画",
+    "key": "baozi",
+    "version": "1.1.6",
+    "fileName": "sources/baozi.js",
+    "description": "包子漫画：官方 venera-configs 配置。"
+  },
+  {
+    "name": "MangaDex",
+    "key": "manga_dex",
+    "version": "1.1.0",
+    "fileName": "sources/manga_dex.js",
+    "description": "Account feature is not supported yet."
+  },
+  {
+    "name": "爱看漫",
+    "key": "ikmmh",
+    "version": "1.0.5",
+    "fileName": "sources/ikmmh.js",
+    "description": "爱看漫：官方 venera-configs 配置。"
+  },
+  {
+    "name": "少年ジャンプ＋",
+    "key": "shonen_jump_plus",
+    "version": "1.1.1",
+    "fileName": "sources/shonen_jump_plus.js",
+    "description": "少年ジャンプ＋：官方 venera-configs 配置。"
+  },
+  {
+    "name": "comick",
+    "key": "comick",
+    "version": "1.2.0",
+    "fileName": "sources/comick.js",
+    "description": "comick：官方 venera-configs 配置。"
+  },
+  {
+    "name": "优酷漫画",
+    "key": "ykmh",
+    "version": "1.0.0",
+    "fileName": "sources/ykmh.js",
+    "description": "优酷漫画：官方 venera-configs 配置。"
+  },
+  {
+    "name": "再漫画",
+    "key": "zaimanhua",
+    "version": "1.0.2",
+    "fileName": "sources/zaimanhua.js",
+    "description": "再漫画：官方 venera-configs 配置。"
+  },
+  {
+    "name": "漫画柜",
+    "key": "ManHuaGui",
+    "version": "1.2.1",
+    "fileName": "sources/manhuagui.js",
+    "description": "漫画柜：官方 venera-configs 配置。"
+  },
+  {
+    "name": "漫蛙吧",
+    "key": "manwaba",
+    "version": "1.0.2",
+    "fileName": "sources/manwaba.js",
+    "description": "漫蛙吧：官方 venera-configs 配置。"
+  },
+  {
+    "name": "Lanraragi",
+    "key": "lanraragi",
+    "version": "1.1.0",
+    "fileName": "sources/lanraragi.js",
+    "description": "Lanraragi：官方 venera-configs 配置。"
+  },
+  {
+    "name": "Komga",
+    "key": "komga",
+    "version": "1.0.0",
+    "fileName": "sources/komga.js",
+    "description": "Komga：官方 venera-configs 配置。"
+  },
+  {
+    "name": "カドコミ",
+    "key": "comic_walker",
+    "version": "1.0.0",
+    "fileName": "sources/comic_walker.js",
+    "description": "カドコミ：官方 venera-configs 配置。"
+  },
+  {
+    "name": "漫画1234",
+    "key": "mh1234",
+    "version": "1.0.0",
+    "fileName": "sources/mh1234.js",
+    "description": "漫画1234：官方 venera-configs 配置。"
+  },
+  {
+    "name": "CCC追漫台",
+    "key": "ccc",
+    "version": "1.0.1",
+    "fileName": "sources/ccc.js",
+    "description": "CCC追漫台：官方 venera-configs 配置。"
+  },
+  {
+    "name": "GoDa漫画",
+    "key": "goda",
+    "version": "1.0.0",
+    "fileName": "sources/goda.js",
+    "description": "GoDa漫画：官方 venera-configs 配置。"
+  },
+  {
+    "name": "漫画人",
+    "key": "manhuaren",
+    "version": "1.0.0",
+    "fileName": "sources/manhuaren.js",
+    "description": "漫画人：官方 venera-configs 配置。"
+  },
+  {
+    "name": "jcomic.net",
+    "key": "jcomic",
+    "version": "1.0.0",
+    "fileName": "sources/jcomic.js",
+    "description": "jcomic.net：官方 venera-configs 配置。"
+  }
+]

@@ -1,0 +1,1532 @@
+[
+  {
+    "name": "MYCOMIC",
+    "url": "https://mycomic.com/cn",
+    "status": "disabled",
+    "category": "normal",
+    "reason": "2026-06-03 实测 https://mycomic.com/cn、/cn/comics 及搜索候选路径均返回 Cloudflare Just a moment / 403，搜索接口无法验证。",
+    "finalUrl": "https://mycomic.com/cn",
+    "lastChecked": "2026-06-03"
+  },
+  {
+    "name": "漫客栈（APP）",
+    "url": "https://comic.mkzhan.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "https://comic.mkzhan.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "布卡漫画（PC）",
+    "url": "http://www.buka.cn",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "知音漫客（APP）",
+    "url": "https://api.zymk.cn",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "有妖气（APP）",
+    "url": "http://app.u17.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "爱飒漫画（PC）",
+    "url": "https://www.isamanhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：CERT_HAS_EXPIRED",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "大角虫（PC）",
+    "url": "https://www.dajiaochongmanhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ERR_TLS_CERT_ALTNAME_INVALID",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "大角虫（APP）",
+    "url": "http://dajiaochong.517w.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "微博动漫（APP）",
+    "url": "http://apiwap.vcomic.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "掌阅漫画（APP）",
+    "url": "http://resource.cm233.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "http://resource.cm233.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "掌阅漫画（PC）",
+    "url": "http://cm233.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "动漫之家",
+    "url": "https://m.dmzj.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "TLS EOF，当前环境无法稳定访问移动端首页，未能验证搜索/详情/章节/图片。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "动漫之家（PC）",
+    "url": "https://www.dmzj.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "动漫之家（APP）",
+    "url": "http://sacg.dmzj.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "动漫之家v1（APP）",
+    "url": "http://api.dmzj.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "https://webblock.volcengine.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "动漫之家v2（APP）",
+    "url": "http://v2.api.dmzj.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "动漫之家v3（APP）",
+    "url": "https://v3api.dmzj.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ECONNRESET",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫番漫画（APP）",
+    "url": "https://codetest.myfcomic.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "追追漫画（APP）",
+    "url": "http://api.ilikemanga.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：UND_ERR_SOCKET",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "豆腐（APP）",
+    "url": "http://imgold2.doufu.la",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "红豆漫画（APP）",
+    "url": "http://39.105.15.250:81",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画羊（APP）",
+    "url": "https://m.manhuayang.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "猫爪漫画（APP）",
+    "url": "http://cartoon-novel.jjmh882.cn",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：EAI_AGAIN",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "一本漫画（APP）",
+    "url": "https://app.yibenmanhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "免费漫画全集（APP）",
+    "url": "https://www.yzpai.cn",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画台",
+    "url": "https://m.manhuatai.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "证书过期，当前环境无法可靠验证。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画台（APP）",
+    "url": "https://getconfig-globalapi.yyhao.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "https://getconfig-globalapi.yyhao.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "神漫画",
+    "url": "https://www.taomanhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "爱优漫",
+    "url": "https://m.kaimanhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画码",
+    "url": "https://m.manhuama.net",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "DNS 解析失败或域名不可达。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画码（PC）",
+    "url": "https://www.manhuama.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 manhuama.js 覆盖或应以后合并处理。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "40漫画",
+    "url": "https://www.40manhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "极速漫画（PC）",
+    "url": "http://www.1kkk.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 one_kkk.js 覆盖或应以后合并处理。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画人",
+    "url": "http://www.manhuaren.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "已有官方 Venera 源覆盖：manhuaren.js",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "扑飞漫画",
+    "url": "http://m.pufei8.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "搜索无有效结果，详情页返回异常/空壳内容。",
+    "finalUrl": "http://m.pufei8.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "塔多漫画",
+    "url": "http://m.taduo.net",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "733漫画",
+    "url": "http://m.733mh.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：UND_ERR_SOCKET",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "古风漫画",
+    "url": "https://m.gufengmh8.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "首页和搜索返回空壳页，未发现有效漫画结构。",
+    "finalUrl": "https://m.gufengmh8.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "古风漫画（PC）",
+    "url": "https://www.gufengmh8.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 gufengmh8.js 覆盖或应以后合并处理。",
+    "finalUrl": "https://www.gufengmh8.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画呗",
+    "url": "https://m.manhuabei.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "跳转到停放页/低质量落地页。",
+    "finalUrl": "https://m.manhuabei.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画呗（PC）",
+    "url": "https://www.manhuabei.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 manhuabei.js 覆盖或应以后合并处理。",
+    "finalUrl": "http://ww1.manhuabei.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画粉",
+    "url": "https://m.manhuafen.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "检测为停放页、广告落地页或域名出售页。",
+    "finalUrl": "http://ww1.manhuafen.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画粉（PC）",
+    "url": "https://www.manhuafen.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 漫画粉移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "https://www.manhuafen.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画堆",
+    "url": "https://m.manhuadui.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "跳转到停放页/低质量落地页。",
+    "finalUrl": "https://m.manhuadui.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "OH漫画",
+    "url": "https://www.ohmanhua.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "http://ww1.ohmanhua.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "奇漫屋",
+    "url": "http://m.6manhua6.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "酷漫屋",
+    "url": "http://m.kuman55.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "检测为停放页、广告落地页或域名出售页。",
+    "finalUrl": "http://m.kuman55.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "倾城漫画",
+    "url": "http://m.xianman123.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "检测为停放页、广告落地页或域名出售页。",
+    "finalUrl": "http://m.xianman123.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "倾城漫画（PC）",
+    "url": "https://www.xianman123.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "小白漫画",
+    "url": "https://www.xiaobaimh.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "鹿可漫画",
+    "url": "http://www.mhso.wang",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "非麻瓜漫画",
+    "url": "https://www.fmgmh.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "https://www.fmgmh.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "拷贝漫画",
+    "url": "https://copymanga.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "已有官方 Venera 源覆盖：copy_manga.js",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "拷贝漫画（APP）",
+    "url": "https://copymanga.com/h5",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "已有官方 Venera 源覆盖：copy_manga.js",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "无限动漫",
+    "url": "https://comic.dreamsinfo.cn",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画全集（APP）",
+    "url": "http://manhua.qiyunet.top:28000",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "LRY漫画（APP）",
+    "url": "http://api.pingcc.cn",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "2Comic",
+    "url": "https://x.twocomic.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ECONNRESET",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "8Comic",
+    "url": "http://comicvip.com:88",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：UND_ERR_SOCKET",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "威特漫画",
+    "url": "http://ccc.zs520ds.cn",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "靠谱漫画",
+    "url": "https://www.nadu8.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "https://www.nadu8.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "飞漫画",
+    "url": "https://m.feimh.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "一起看动漫",
+    "url": "http://www.17kdm.net",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "检测为停放页、广告落地页或域名出售页。",
+    "finalUrl": "http://www.17kdm.net/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "九啦啦漫画",
+    "url": "http://www.9la.la",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "土豆漫画",
+    "url": "https://m.xm124.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "土豆漫画（PC）",
+    "url": "https://www.xm124.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 土豆漫画移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "http://xm124.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "168漫画（PC）",
+    "url": "http://www.168manhua.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 168漫画移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "http://www.168manhua.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "依依漫画",
+    "url": "https://m.yiyimanhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "HiComic",
+    "url": "https://hicomic.net",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "土豪漫画",
+    "url": "https://m.tuhao456.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ECONNRESET",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "土豪漫画（PC）",
+    "url": "https://tuhao456.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 土豪漫画移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "土豪漫画网",
+    "url": "https://m.toho123.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "https://m.toho123.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "土豪漫画网（PC）",
+    "url": "https://www.toho123.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 土豪漫画网移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "https://www.toho123.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "奇妙漫画",
+    "url": "https://www.qimiaomh.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "https://www.qimiaomh.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "狂人漫画",
+    "url": "https://m.krmanhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：CERT_HAS_EXPIRED",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "彼阅漫画",
+    "url": "https://m.bymanhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "彼阅漫画（PC）",
+    "url": "https://www.bymanhua.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 彼阅漫画移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "秀十八漫画",
+    "url": "https://mip.xiushiba.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ECONNRESET",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "久五漫画",
+    "url": "http://m.99wushu.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "http://m.99wushu.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "国人漫画",
+    "url": "http://m.grmanhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "http://m.grmanhua.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画殿",
+    "url": "https://m.manhuadian.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ECONNRESET",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画1234",
+    "url": "https://www.mh1234.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "已有官方 Venera 源覆盖：mh1234.js",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画160",
+    "url": "https://m.mh160.co",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "57漫画",
+    "url": "http://m.wuqimh.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "检测为停放页、广告落地页或域名出售页。",
+    "finalUrl": "http://m.wuqimh.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "2020漫画",
+    "url": "http://m.2020mh.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：UND_ERR_SOCKET",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "我要去漫画",
+    "url": "http://www.517manhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "http://www.517manhua.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "芝士豪八",
+    "url": "https://manhua.zsh8.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "咚漫（PC）",
+    "url": "https://www.dongmanmanhua.cn",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 咚漫移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "https://www.dongmanmanhua.cn/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "Webtoon",
+    "url": "https://us.webtoons.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "非常爱漫",
+    "url": "http://m.veryim.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：UND_ERR_SOCKET",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "非常爱漫（PC）",
+    "url": "http://www.veryimapp.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 非常爱漫移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "酷爱漫画",
+    "url": "https://www.kuimh.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：UND_ERR_SOCKET",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "国漫吧",
+    "url": "http://m.guoman8.cc",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "检测为停放页、广告落地页或域名出售页。",
+    "finalUrl": "http://m.guoman8.cc/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "汉化吧",
+    "url": "http://www.hanhuaba.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "检测为停放页、广告落地页或域名出售页。",
+    "finalUrl": "http://www.hanhuaba.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "黑鼠吧",
+    "url": "http://www.heishuba.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "韩漫吧",
+    "url": "https://m.hmba.vip",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "趣漫吧",
+    "url": "https://www.qumanba.cc",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "看妹子漫画",
+    "url": "https://www.kanmeizi.cc",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://www.kanmeizi.cc/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫小肆（H漫）",
+    "url": "https://www.pknbc.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://www.pknbc.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "菠萝动漫",
+    "url": "http://www.boluodm.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "韩国污漫画",
+    "url": "http://wuman.org",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "http://wuman.org/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "韩漫窝",
+    "url": "http://www.hanmanwo.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "http://www.hanmanwo.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "乐乐韩漫",
+    "url": "https://www.hmwu.cc",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://www.hmwu.cc/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "九九韩漫",
+    "url": "https://www.99mh1.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "特漫网",
+    "url": "https://38te.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://www.hugedomains.com/domain_profile.cfm?d=38te.com",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "云漫画",
+    "url": "http://yunmanhua2.yueriji.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "43423漫画",
+    "url": "https://www.43423.cc",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "https://www.43423.cc/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫漫820",
+    "url": "https://www.mm820.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "43423漫画网",
+    "url": "http://m.43423.net",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "LU85漫画",
+    "url": "https://www.lu85.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "http://xml-v4.pushub.net/click?i=FM3t7lB8ayM_0",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "KAN漫画",
+    "url": "https://kanbook.net",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "RoozFun漫画",
+    "url": "http://www.roozfun.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "http://xml-v4.pushub.net/click?i=GTEMVuMaOhM_0",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "奇客漫（H漫）",
+    "url": "https://www.qikeman.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "亲亲漫画",
+    "url": "https://m.acgcd.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "https://m.acgcd.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "梦游漫画（H漫）",
+    "url": "https://www.mymhh.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://www.mymhh.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "顶通漫画（H漫）",
+    "url": "http://www.2kande.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://libo888.cc/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "夜斗漫画（H漫）",
+    "url": "http://www.yato.cc",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画看",
+    "url": "https://m.mhkan.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ERR_TLS_CERT_ALTNAME_INVALID",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画看（PC）",
+    "url": "https://www.mhkan.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 漫画看移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "https://www.mhkan.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "親漫畫",
+    "url": "https://www.qinmanga.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫畫迷",
+    "url": "http://www.150mov.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫畫寶",
+    "url": "https://www.magabao.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "检测为停放页、广告落地页或域名出售页。",
+    "finalUrl": "http://ww1.magabao.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "MOXI动漫",
+    "url": "http://www.moxidongman.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "暴走漫画",
+    "url": "http://baozoumanhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "检测为停放页、广告落地页或域名出售页。",
+    "finalUrl": "http://baozoumanhua.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "90漫画",
+    "url": "http://m.90mh.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "http://m.90mh.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "90漫画（PC）",
+    "url": "http://www.90mh.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 90漫画移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "http://www.90mh.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "肉漫画",
+    "url": "https://www.roumh.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://www.roumanhua.net/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "点拉漫画",
+    "url": "https://www.dianlamh.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "SS漫画",
+    "url": "http://ssmh.cc",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "http://ssmh.cc/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "韩漫漫画",
+    "url": "https://www.manhwa.cc",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://www.manhwa.cc/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "CC漫画",
+    "url": "http://m.ccdm15.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "http://m.ccdm15.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "CC漫画（PC）",
+    "url": "http://www.ccdm15.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 CC漫画移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "http://www.ccdm15.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画皮",
+    "url": "https://www.manhuapi.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "http://www.manhuapi.cc/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "X18漫画",
+    "url": "https://m.x18mh.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "X18漫画（PC）",
+    "url": "https://www.x18mh.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 X18漫画移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "独漫画",
+    "url": "https://m.dumanhhua.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "侠漫画",
+    "url": "https://m.xiamh.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：EAI_AGAIN",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "乐语漫画",
+    "url": "https://m.leyuman.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "七七漫画",
+    "url": "http://www.77manhua.net",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "检测为停放页、广告落地页或域名出售页。",
+    "finalUrl": "http://www.77manhua.net/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "360漫画",
+    "url": "https://m.100fanwo.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "360漫画（PC）",
+    "url": "https://www.100fanwo.com",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 360漫画移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "雪梨漫画",
+    "url": "https://m.nxueli.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "https://m.nxueli.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "看漫社",
+    "url": "https://www.kanmanshe.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "歪歪漫画（H漫）",
+    "url": "https://www.caisemh.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "可乐漫画（H漫）",
+    "url": "https://www.kelemh.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://www.kelemh.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "免费看韩漫（H漫）",
+    "url": "https://m.svipmh.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "MUA韩漫（H漫）",
+    "url": "https://www.muamh.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://www.muamh.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "看了硬漫画（H漫）",
+    "url": "https://www.youmamh.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "艾米漫画（H漫）",
+    "url": "https://www.aimimh.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://www.aimimh.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画123",
+    "url": "https://m.manhua123.net",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：UND_ERR_SOCKET",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "憨憨的漫画",
+    "url": "http://m.hanhande.net",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：ENOTFOUND",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "乙女漫画（PC）",
+    "url": "https://www.nokiacn.net",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 乙女漫画移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "https://www.nokiacn.net/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "乙女漫画",
+    "url": "http://m.nokiacn.net",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "http://m.nokiacn.net/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "乙女漫画M",
+    "url": "https://m.yinvmh.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "腐漫画",
+    "url": "http://mh.fmhua.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "http://mh.fmhua.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "腐漫画（APP）",
+    "url": "http://app.fmmhua.com",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "http://app.fmmhua.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "腐漫画A",
+    "url": "http://www.fmhuaaa.net",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "http://www.fmhuaaa.net/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画天堂",
+    "url": "http://www.manhuatt.com",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "返回空壳 HTML 或未发现漫画站结构。",
+    "finalUrl": "http://www.manhuatt.com/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画吧",
+    "url": "https://m.mhba.cc",
+    "status": "disabled",
+    "category": "dead",
+    "reason": "访问失败：20",
+    "finalUrl": "",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫画吧（PC）",
+    "url": "http://www.manhuaba.cc",
+    "status": "duplicate",
+    "category": "duplicate",
+    "reason": "重复站点/旧域名，已由 漫画吧移动端/同站点 覆盖或应以后合并处理。",
+    "finalUrl": "http://www.manhuaba.cc/",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "Picacg",
+    "url": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/picacg.js",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/picacg.js",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "nhentai",
+    "url": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/nhentai.js",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/nhentai.js",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "紳士漫畫",
+    "url": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/wnacg.js",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/wnacg.js",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "ehentai",
+    "url": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/ehentai.js",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/ehentai.js",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "禁漫天堂",
+    "url": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/jm.js",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/jm.js",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "hitomi.la",
+    "url": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/hitomi.js",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/hitomi.js",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "18漫画",
+    "url": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/mh18.js",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/mh18.js",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "漫小肆",
+    "url": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/mxs.js",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/mxs.js",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "H-Comic",
+    "url": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/hcomic.js",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/hcomic.js",
+    "lastChecked": "2026-06-02"
+  },
+  {
+    "name": "热辣漫画",
+    "url": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/hot_manga.js",
+    "status": "disabled",
+    "category": "adult",
+    "reason": "用户要求删除成人源，已从所有可导入索引移除。",
+    "finalUrl": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/hot_manga.js",
+    "lastChecked": "2026-06-02"
+  }
+]
