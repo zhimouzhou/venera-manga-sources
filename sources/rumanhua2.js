@@ -2,7 +2,7 @@
 class Rumanhua2Source extends ComicSource {
     name = "\u5982\u6f2b\u753b"
     key = "rumanhua2"
-    version = "0.4.2"
+    version = "0.4.3"
     minAppVersion = "1.6.0"
     url = "http://www.rumanhua2.com"
 
@@ -180,6 +180,10 @@ class Rumanhua2Source extends ComicSource {
         return chapters
     }
 
+    reverseChapters(chapters) {
+        return new Map(Array.from((chapters || new Map()).entries()).reverse())
+    }
+
     unpackPageScript(html) {
         let m = html.match(/<script[^>]*>\s*(eval\(function\(p,a,c,k,e,d\)[\s\S]*?)\s*<\/script>/i)
         if (!m) return ""
@@ -287,7 +291,7 @@ class Rumanhua2Source extends ComicSource {
             try {
                 let res = await this.fetchWithFallback(id)
                 let details = this.parseInfo(res.body, id, res.base)
-                details.chapters = await this.appendMoreChapters(details.chapters || new Map(), id, res.base)
+                details.chapters = this.reverseChapters(await this.appendMoreChapters(details.chapters || new Map(), id, res.base))
                 return details
             } catch (e) {
                 throw `getComicInfo failed, url=${id}, ${e}`
