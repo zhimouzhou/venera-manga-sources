@@ -2,16 +2,16 @@
   {
     "name": "如漫画",
     "key": "rumanhua2",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "fileName": "sources/rumanhua2.js",
-    "description": "如漫画，加入 http 优先和多域名 fallback；Venera 曾报证书域名不匹配，暂不放稳定版。"
+    "description": "如漫画，修复 Venera 点击详情时的空 Map 返回；保持 http 优先和多域名 fallback。"
   },
   {
     "name": "读漫屋",
     "key": "dumanwu1",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "fileName": "sources/dumanwu1.js",
-    "description": "读漫屋，加入 www/http 优先和多域名 fallback；Venera 曾报 m 域名 connection reset，暂不放稳定版。"
+    "description": "读漫屋，修复 Venera 点击详情时的空 Map 返回；保持 www/http 优先和多域名 fallback。"
   },
   {
     "name": "动漫屋",

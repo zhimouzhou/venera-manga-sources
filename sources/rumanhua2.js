@@ -2,7 +2,7 @@
 class Rumanhua2Source extends ComicSource {
     name = "\u5982\u6f2b\u753b"
     key = "rumanhua2"
-    version = "0.4.0"
+    version = "0.4.1"
     minAppVersion = "1.6.0"
     url = "http://www.rumanhua2.com"
 
@@ -103,7 +103,13 @@ class Rumanhua2Source extends ComicSource {
             let id = this.normalizeUrl(href, base)
             if (!title || seen[id] || /^(首页|排行|分类|登录|注册|用户|历史)$/.test(title)) continue
             seen[id] = true
-            list.push(new Comic({ id, title, cover: this.normalizeUrl(cover, base), description: "\u5982\u6f2b\u753b" }))
+            list.push(new Comic({
+                id: id || "",
+                title: title || "",
+                cover: this.normalizeUrl(cover, base) || "",
+                subtitle: "",
+                description: "\u5982\u6f2b\u753b"
+            }))
         }
         return list
     }
@@ -117,15 +123,25 @@ class Rumanhua2Source extends ComicSource {
             this.attr(doc.querySelector(".detail img"), "src") ||
             this.attr(doc.querySelector("img"), "data-src") ||
             this.attr(doc.querySelector("img"), "src")
-        let author = this.parseMeta(doc, "author")
+        let author = this.parseMeta(doc, "author") || ""
         let description = this.parseMeta(doc, "description") || this.text(doc.querySelector(".introduction")) || this.text(doc.querySelector(".desc"))
         let chapters = this.parseChapters(doc, this.normalizeUrl(id, base), base)
         doc.dispose()
-        return new ComicDetails({ title, cover: this.normalizeUrl(cover, base), author, description, chapters, url: this.normalizeUrl(id, base) })
+        return new ComicDetails({
+            title: title || "",
+            cover: this.normalizeUrl(cover, base) || "",
+            description: description || "",
+            tags: new Map([
+                ["作者", author ? [author] : []],
+                ["状态", []]
+            ]),
+            chapters: chapters || new Map(),
+            url: this.normalizeUrl(id, base) || ""
+        })
     }
 
     parseChapters(doc, comicId, base) {
-        let chapters = {}
+        let chapters = new Map()
         let id = (this.pathOf(comicId).match(/^\/([^\/]+)\/?/) || [])[1]
         if (!id) return chapters
         let pattern = new RegExp(`^/${id}/[^/]+\\.html$`)
@@ -134,7 +150,7 @@ class Rumanhua2Source extends ComicSource {
             if (!href || !pattern.test(this.pathOf(href))) continue
             let name = this.text(a) || this.attr(a, "title")
             if (!name || /上一章|下一章|继续阅读/.test(name)) continue
-            chapters[this.normalizeUrl(href, base)] = name
+            chapters.set(this.normalizeUrl(href, base), name || "")
         }
         return chapters
     }
@@ -203,7 +219,7 @@ class Rumanhua2Source extends ComicSource {
 
     async parseImages(html, pageUrl, base) {
         let encoded = this.extractC0rst96(html)
-        if (!encoded) return []
+        if (!encoded) throw `getImages failed: decode __c0rst96 failed, url=${pageUrl}`
         let all2Res = await this.fetchWithFallback(this.extractAll2Url(html, base), null, pageUrl)
         let rendered = this.runAll2Decoder(all2Res.body, encoded, this.extractReaderId(html))
         let images = []
@@ -217,6 +233,7 @@ class Rumanhua2Source extends ComicSource {
                 images.push(src)
             }
         }
+        if (!images.length) throw `getImages failed: decode __c0rst96 failed, url=${pageUrl}`
         return images
     }
 
@@ -229,23 +246,35 @@ class Rumanhua2Source extends ComicSource {
     }}]
 
     search = { load: async (keyword, options, page) => {
-        let res = await this.fetchWithFallback("/s", { k: keyword })
-        let doc = new HtmlDocument(res.body)
-        let comics = this.parseComicList(doc, res.base)
-        doc.dispose()
-        return { comics, maxPage: 1 }
+        try {
+            let res = await this.fetchWithFallback("/s", { k: keyword })
+            let doc = new HtmlDocument(res.body)
+            let comics = this.parseComicList(doc, res.base).filter(c => c && c.id && c.title)
+            doc.dispose()
+            return { comics, maxPage: 1 }
+        } catch (e) {
+            throw `search failed, url=/s, ${e}`
+        }
     }, optionList: [] }
 
     comic = {
         loadInfo: async (id) => {
-            let res = await this.fetchWithFallback(id)
-            return this.parseInfo(res.body, id, res.base)
+            try {
+                let res = await this.fetchWithFallback(id)
+                return this.parseInfo(res.body, id, res.base)
+            } catch (e) {
+                throw `getComicInfo failed, url=${id}, ${e}`
+            }
         },
         loadEp: async (comicId, epId) => {
-            let res = await this.fetchWithFallback(epId || comicId, null, comicId)
-            let images = await this.parseImages(res.body, res.url, res.base)
-            if (!images.length) throw `No images parsed: ${res.url}`
-            return { images }
+            let url = epId || comicId
+            try {
+                let res = await this.fetchWithFallback(url, null, comicId)
+                let images = await this.parseImages(res.body, res.url, res.base)
+                return { images: images || [] }
+            } catch (e) {
+                throw `getImages failed, url=${url}, ${e}`
+            }
         },
         onImageLoad: (url, comicId, epId) => ({ headers: Object.assign({}, this.headers, { "Referer": epId || comicId || this.url }) }),
         onThumbnailLoad: (url) => ({ headers: this.headers })
@@ -253,6 +282,9 @@ class Rumanhua2Source extends ComicSource {
 
     getHomePage = this.explore
     getComicInfo = this.comic.loadInfo
-    getChapters = this.comic.loadInfo
+    getChapters = async (id) => {
+        let details = await this.comic.loadInfo(id)
+        return details && details.chapters ? details.chapters : new Map()
+    }
     getImages = this.comic.loadEp
 }
