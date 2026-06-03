@@ -156,16 +156,16 @@
   {
     "name": "如漫画",
     "key": "rumanhua2",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "fileName": "sources/rumanhua2.js",
-    "description": "如漫画，修复 Venera 点击详情时的空 Map 返回；保持 http 优先和多域名 fallback。"
+    "description": "如漫画，接入 /morechapter 补全隐藏章节列表，继续保持 http 优先和多域名 fallback。"
   },
   {
     "name": "读漫屋",
     "key": "dumanwu1",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "fileName": "sources/dumanwu1.js",
-    "description": "读漫屋，修复 Venera 点击详情时的空 Map 返回；保持 www/http 优先和多域名 fallback。"
+    "description": "读漫屋，接入 /morechapter 补全隐藏章节列表，继续保持 www/http 优先和多域名 fallback。"
   },
   {
     "name": "733动漫",

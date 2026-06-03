@@ -2,7 +2,7 @@
 class Rumanhua2Source extends ComicSource {
     name = "\u5982\u6f2b\u753b"
     key = "rumanhua2"
-    version = "0.4.1"
+    version = "0.4.2"
     minAppVersion = "1.6.0"
     url = "http://www.rumanhua2.com"
 
@@ -149,8 +149,33 @@ class Rumanhua2Source extends ComicSource {
             let href = this.attr(a, "href")
             if (!href || !pattern.test(this.pathOf(href))) continue
             let name = this.text(a) || this.attr(a, "title")
-            if (!name || /上一章|下一章|继续阅读/.test(name)) continue
+            if (!this.isChapterTitle(name)) continue
             chapters.set(this.normalizeUrl(href, base), name || "")
+        }
+        return chapters
+    }
+
+    isChapterTitle(name) {
+        return !!name && !/^\s*(\u5f00\u59cb\u9605\u8bfb|\u7ee7\u7eed\u9605\u8bfb|\u4e0a\u4e00\u7ae0|\u4e0b\u4e00\u7ae0|\u4e0a\u4e00\u8bdd|\u4e0b\u4e00\u8bdd)\s*$/i.test(name)
+    }
+
+    async appendMoreChapters(chapters, comicId, base) {
+        let id = (this.pathOf(comicId).match(/^\/([^\/]+)\/?/) || [])[1]
+        if (!id) return chapters
+        try {
+            let res = await this.fetchWithFallback("/morechapter", { id }, this.normalizeUrl(comicId, base))
+            let json = JSON.parse(res.body)
+            let data = Array.isArray(json.data) ? json.data : []
+            for (let item of data) {
+                let chapterId = item && item.chapterid ? item.chapterid : ""
+                let chapterName = item && item.chaptername ? item.chaptername : ""
+                if (!chapterId || !this.isChapterTitle(chapterName)) continue
+                let url = this.normalizeUrl(`/${id}/${chapterId}.html`, res.base || base)
+                if (!url || chapters.has(url)) continue
+                chapters.set(url, chapterName)
+            }
+        } catch (e) {
+            if (!chapters.size) throw `getChapters failed, url=${comicId}, /morechapter failed: ${e}`
         }
         return chapters
     }
@@ -261,7 +286,9 @@ class Rumanhua2Source extends ComicSource {
         loadInfo: async (id) => {
             try {
                 let res = await this.fetchWithFallback(id)
-                return this.parseInfo(res.body, id, res.base)
+                let details = this.parseInfo(res.body, id, res.base)
+                details.chapters = await this.appendMoreChapters(details.chapters || new Map(), id, res.base)
+                return details
             } catch (e) {
                 throw `getComicInfo failed, url=${id}, ${e}`
             }
