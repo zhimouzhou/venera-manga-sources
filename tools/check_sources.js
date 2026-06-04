@@ -144,6 +144,12 @@ for (const file of fs.readdirSync(sourcesDir)) {
   if (!/class\s+\w+\s+extends\s+ComicSource/.test(sourceText)) {
     fail(`sources/${file} does not define a ComicSource class`);
   }
+  if (!/\bonImageLoad\s*:/.test(sourceText)) {
+    fail(`sources/${file} does not define comic.onImageLoad`);
+  }
+  if (!/\bloadEp\s*:/.test(sourceText)) {
+    fail(`sources/${file} does not define comic.loadEp`);
+  }
 }
 
 const stableIndex = readIndex("index.json");
@@ -152,11 +158,16 @@ const adultIndex = readIndex("adult_index.json");
 const adultFullIndex = readIndex("adult_index_full.json");
 const allIndex = readIndex("all_index.json");
 const disabledSources = readIndex("disabled_sources.json");
+const publishedSourceList = readIndex("source_list.json");
 checkIndex("index.json", stableIndex, ["ready"]);
 checkIndex("index_full.json", fullIndex, ["ready", "experimental"]);
 checkIndex("adult_index.json", adultIndex, ["ready"]);
 checkIndex("adult_index_full.json", adultFullIndex, ["ready", "experimental"]);
 checkIndex("all_index.json", allIndex, ["ready", "experimental", "todo"]);
+
+if (JSON.stringify(publishedSourceList) !== JSON.stringify(sourceList)) {
+  fail("source_list.json is not synchronized with tools/source_list.json");
+}
 
 function assertSameOrder(label, actual, expected) {
   if (actual.length !== expected.length) {

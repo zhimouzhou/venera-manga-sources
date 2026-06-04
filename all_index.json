@@ -23,7 +23,7 @@
   {
     "name": "拷贝漫画",
     "key": "copy_manga",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "fileName": "sources/copy_manga.js",
     "description": "拷贝漫画：官方 venera-configs 配置。"
   },
@@ -37,14 +37,14 @@
   {
     "name": "包子漫画",
     "key": "baozi",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "fileName": "sources/baozi.js",
     "description": "包子漫画：官方 venera-configs 配置。"
   },
   {
     "name": "MangaDex",
     "key": "manga_dex",
-    "version": "1.1.0",
+    "version": "1.1.2",
     "fileName": "sources/manga_dex.js",
     "description": "Account feature is not supported yet."
   },
@@ -72,14 +72,14 @@
   {
     "name": "优酷漫画",
     "key": "ykmh",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "fileName": "sources/ykmh.js",
     "description": "优酷漫画：官方 venera-configs 配置。"
   },
   {
     "name": "再漫画",
     "key": "zaimanhua",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "fileName": "sources/zaimanhua.js",
     "description": "再漫画：官方 venera-configs 配置。"
   },
@@ -93,7 +93,7 @@
   {
     "name": "漫蛙吧",
     "key": "manwaba",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "fileName": "sources/manwaba.js",
     "description": "漫蛙吧：官方 venera-configs 配置。"
   },
@@ -121,7 +121,7 @@
   {
     "name": "漫画1234",
     "key": "mh1234",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "fileName": "sources/mh1234.js",
     "description": "漫画1234：官方 venera-configs 配置。"
   },
@@ -135,7 +135,7 @@
   {
     "name": "GoDa漫画",
     "key": "goda",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "fileName": "sources/goda.js",
     "description": "GoDa漫画：官方 venera-configs 配置。"
   },

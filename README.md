@@ -69,6 +69,7 @@ https://purge.jsdelivr.net/gh/zhimouzhou/venera-manga-sources@main/all_index.jso
 ```bash
 node tools/build_index.js
 node tools/check_sources.js
+node tools/test_image_downloads.js
 ```
 
 Generated files:
@@ -79,3 +80,9 @@ Generated files:
 - `adult_index_full.json`: currently an empty array.
 - `all_index.json`: all non-adult importable sources, ordered stable normal, then normal test.
 - `disabled_sources.json`: disabled and duplicate audit list.
+- `source_list.json`: published full source catalog, synchronized from `tools/source_list.json`.
+
+`test_image_downloads.js` audits every `sources/*.js` for `comic.onImageLoad`, then runs the
+same two-stage flow as the Venera downloader on three live sources: `loadEp()` returns
+`images: string[]`, `onImageLoad()` supplies headers, and five images are downloaded
+concurrently with non-empty `image/*` responses.

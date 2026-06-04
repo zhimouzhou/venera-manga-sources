@@ -5,7 +5,7 @@ class Baozi extends ComicSource {
   // 唯一标识符
   key = "baozi";
 
-  version = "1.1.6";
+  version = "1.1.7";
 
   minAppVersion = "1.0.0";
 
@@ -379,7 +379,56 @@ class Baozi extends ComicSource {
   };
 
   /// 单个漫画相关
+
+  getImageHeaders(url, pageUrl, siteBase) {
+    let base = typeof siteBase === "string" ? siteBase : url || "";
+    let origin = "";
+    try {
+      origin = new URL(base).origin;
+    } catch (_) {
+      origin = (base || "").replace(/\/$/, "");
+    }
+    let referer = pageUrl || (origin ? origin + "/" : base);
+    try {
+      referer = new URL(referer, origin ? origin + "/" : base).toString();
+    } catch (_) {}
+    return {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Mobile Safari/537.36",
+      "Referer": referer,
+      "Origin": origin,
+      "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+      "Connection": "keep-alive"
+    };
+  }
+
+  getImageLoadingConfig(url, comicId, epId) {
+    let siteBase = url || "";
+    for (let key of ["baseUrl", "apiUrl", "api"]) {
+      try {
+        let value = this[key];
+        if (typeof value === "string" && /^https?:\/\//i.test(value)) {
+          siteBase = value;
+          break;
+        }
+      } catch (_) {}
+    }
+    let pageUrl = [epId, comicId].find(value => typeof value === "string" && /^https?:\/\//i.test(value)) || siteBase;
+    const headers = this.getImageHeaders(url, pageUrl, siteBase);
+    return {
+      url,
+      method: "GET",
+      headers,
+      onLoadFailed: () => ({
+        url,
+        method: "GET",
+        headers: this.getImageHeaders(url, siteBase, siteBase)
+      })
+    };
+  }
+
   comic = {
+    onImageLoad: (url, comicId, epId) => this.getImageLoadingConfig(url, comicId, epId),
     // 加载漫画信息
     loadInfo: async (id) => {
       let res = await Network.get(`${this.baseUrl}/comic/${id}`);

@@ -80,6 +80,7 @@ fs.writeFileSync(path.join(root, "adult_index.json"), JSON.stringify(adultIndex,
 fs.writeFileSync(path.join(root, "adult_index_full.json"), JSON.stringify(adultFullIndex, null, 2), "utf8");
 fs.writeFileSync(path.join(root, "all_index.json"), JSON.stringify(allIndex, null, 2), "utf8");
 fs.writeFileSync(path.join(root, "disabled_sources.json"), JSON.stringify(disabledSources, null, 2), "utf8");
+fs.writeFileSync(path.join(root, "source_list.json"), JSON.stringify(sourceList, null, 2) + "\n", "utf8");
 console.log(`Generated index.json with ${index.length} stable sources.`);
 console.log(`Generated index_full.json with ${fullIndex.length} ready + experimental non-adult sources.`);
 console.log(`Generated adult_index.json with ${adultIndex.length} adult/special ready sources.`);
