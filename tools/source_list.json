@@ -4231,5 +4231,27 @@
     "reason": "用户要求删除成人源，已从所有可导入索引移除。",
     "isOfficial": true,
     "officialFile": "hot_manga.js"
+  },
+  {
+    "id": 213,
+    "name": "野蛮漫画",
+    "key": "yemancomic",
+    "url": "https://yemancomic.com",
+    "type": "site",
+    "status": "ready",
+    "category": "normal",
+    "sourceFile": "yemancomic.js",
+    "fileName": "sources/yemancomic.js",
+    "version": "0.1.2",
+    "description": "野蛮漫画 yemancomic.com，修复阅读图片 API 分页，避免每话只显示 10 页。",
+    "note": "从 venera-yemancomic-source 迁移并修复 loadPicsFromApi 分页提前停止问题。",
+    "reason": "图片 API 按实际返回数量推进 offset，直到空页、达到 total 或安全上限。",
+    "lastChecked": "2026-06-04",
+    "finalUrl": "https://yemancomic.com",
+    "canSearch": true,
+    "canGetInfo": true,
+    "canGetChapters": true,
+    "canGetImages": true,
+    "isOfficial": false
   }
 ]

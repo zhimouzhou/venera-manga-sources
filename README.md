@@ -51,6 +51,7 @@ https://purge.jsdelivr.net/gh/zhimouzhou/venera-manga-sources@main/all_index.jso
 
 ## Latest Verification
 
+- 野蛮漫画: ready. Image API pagination now continues by actual returned image count until an empty page, reported total, or safety limit; use the raw `all_index.json` URL first if jsDelivr still serves the old 10-page version.
 - MYCOMIC: disabled. The home page, `/cn/comics`, and candidate search URLs returned Cloudflare 403 / Just a moment.
 - 如漫画: experimental. POST `/s`, details, chapters, and `__c0rst96` image decoding work locally; Venera reported certificate mismatch, so this source now uses HTTP-first fallback and is excluded from stable import until confirmed in-app.
 - 读漫屋: experimental. POST `/s`, details, chapters, and `__c0rst96` image decoding work locally; Venera reported connection reset on the mobile HTTPS host, so this source now uses `http://www.dumanwu1.com` first and is excluded from stable import until confirmed in-app.

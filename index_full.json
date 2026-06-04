@@ -187,5 +187,12 @@
     "version": "1.0.0",
     "fileName": "sources/jcomic.js",
     "description": "jcomic.net：官方 venera-configs 配置。"
+  },
+  {
+    "name": "野蛮漫画",
+    "key": "yemancomic",
+    "version": "0.1.2",
+    "fileName": "sources/yemancomic.js",
+    "description": "野蛮漫画 yemancomic.com，修复阅读图片 API 分页，避免每话只显示 10 页。"
   }
 ]

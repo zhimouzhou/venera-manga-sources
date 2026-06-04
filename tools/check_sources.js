@@ -178,8 +178,8 @@ const expectedAllIndex = [
 ];
 assertSameOrder("all_index.json", allIndex, expectedAllIndex);
 
-if (sourceList.length !== 212) {
-  fail(`source_list.json must contain 212 entries, got ${sourceList.length}`);
+if (sourceList.length !== 213) {
+  fail(`source_list.json must contain 213 entries, got ${sourceList.length}`);
 }
 
 for (const item of disabledSources) {
